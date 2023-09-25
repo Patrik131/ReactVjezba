@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+main {
+  max-width: 390px;
+  margin: 0 auto;
+  background-color: #393C3D;
+}
+
+#naslov {
+  color: #CC9962;
+  font-size: 1.5rem;
+  padding: 1.25rem 0 0 0;
+}
+
+#podnaslov {
+  color: #D3C8B6;
+  margin-bottom: 1.25rem;
+}
+
+.btn-container, .email, .bla {
+  display: flex;
+}
+
+.btn-container {
+  justify-content: space-around;
+
+}
+
+.email, .bla {
+  padding: 5px 20px;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.email {
+  color: #006DD1;
+  background-color: #92B3D2;
+}
+
+.bla {
+  color: #23D200;
+  background-color: #9DD292;
+}
+
+.text {
+ color: white;
+ padding: 0.5rem;
+ text-align: left;
+ margin:1rem 2rem;
+}
+
+.text h3 {
+  font-weight: 800;
+}
+
+footer {
+  padding: .5rem 0 1.5rem 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-around;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+
+
